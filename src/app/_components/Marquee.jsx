@@ -2,25 +2,23 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import eee from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg";
+import image1 from "../../../public/images/IMG_9827.jpg";
+import image2 from "../../../public/images/IMG_9828.jpg";
+import image3 from "../../../public/images/IMG_9829.jpg";
+import image4 from "../../../public/images/IMG_9830.jpg";
+import image5 from "../../../public/images/IMG_9832.jpg";
+import image6 from "../../../public/images/IMG_9834.jpg";
+import { useMemo } from "react";
 
-const images = [
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-  eee,
-];
+const images = [image1, image2, image3, image4, image5, image6];
 
 export default function Marquee() {
+  // 🔀 Randomize the image order once per render
+  const shuffledImages = useMemo(
+    () => [...images].sort(() => Math.random() - 0.5),
+    []
+  );
+
   return (
     <section className="w-full flex flex-col items-center justify-center py-12 font-serif">
       {/* Testimonial Text */}
@@ -46,7 +44,7 @@ export default function Marquee() {
             ease: "linear",
           }}
         >
-          {[...images, ...images].map((src, idx) => (
+          {[...shuffledImages, ...shuffledImages].map((src, idx) => (
             <div key={idx} className="flex-shrink-0 rounded-xl overflow-hidden">
               <Image
                 src={src}

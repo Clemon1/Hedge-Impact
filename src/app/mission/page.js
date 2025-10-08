@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import visionImg from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg"; // Replace with NGO-relevant image
-import missionImg from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg"; // Replace with NGO-relevant image
+import visionImg from "../../../public/images/IMG_9828.jpg";
+import missionImg from "../../../public/images/IMG_9829.jpg";
 
 export default function Mission() {
   return (

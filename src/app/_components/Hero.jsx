@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import heroImage from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg";
+import heroImage from "../../../public/images/IMG_9830.jpg";
 import Link from "next/link";
 
 function Hero() {

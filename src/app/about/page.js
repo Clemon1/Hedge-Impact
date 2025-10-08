@@ -2,14 +2,16 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
-import aboutImg from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg"; // Main about image
+import aboutImg from "../../../public/images/IMG_9832.jpg"; // Main about image
+import segunImage from "../../../public/images/Segun.png"; // Main about image
+import adetutu from "../../../public/images/Adetutu.jpg"; // Main about image
 import { useEffect, useState } from "react";
 
 const volunteers = [
   {
     name: "Oluwaseun Adetutu",
     role: "Founder",
-    img: aboutImg,
+    img: adetutu,
     fullDesc: `Oluwaseun Adetutu is a Development Economist and International Development
 Professional with extensive experience working with United Nations agencies and
 international organizations. His expertise spans operations management, capacity
@@ -31,7 +33,7 @@ that deliver lasting impact.`,
   {
     name: "Dr. Segun Tekun",
     role: "Co-Founder",
-    img: aboutImg,
+    img: segunImage,
     fullDesc: `Dr. Segun Tekun is a Social Protection Specialist and Socio-Economic Researcher
 with extensive experience in designing and implementing inclusive development
 programmes across Africa. He holds a PhD in Sustainable Development, with his
@@ -92,12 +94,8 @@ function Modal({ show, onClose, title, fullDesc, image }) {
             </button>
 
             {image && (
-              <div className="w-full h-64 md:h-80 mb-6 overflow-hidden rounded-xl">
-                <Image
-                  src={image}
-                  alt={title}
-                  className="object-cover w-full h-full"
-                />
+              <div className="w-full h-64 md:h-96 mb-6 overflow-hidden rounded-xl">
+                <Image src={image} alt={title} className="object-fill" />
               </div>
             )}
             <h2 className="text-3xl md:text-4xl font-bold mb-4">{title}</h2>
@@ -269,12 +267,12 @@ export default function About() {
               className="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow"
               onClick={() => setSelectedVolunteer(volunteer)}
             >
-              <div className="relative h-64 w-full">
+              <div className="relative h-96 w-full">
                 <Image
                   src={volunteer.img}
                   alt={volunteer.name}
                   fill
-                  className="object-cover"
+                  className="object-fill"
                 />
               </div>
               <div className="p-6 text-center space-y-2">

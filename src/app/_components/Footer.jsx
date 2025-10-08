@@ -32,7 +32,7 @@ export const Footer = () => {
           <p className="text-gray-200 leading-relaxed max-w-sm">
             Partnering for{" "}
             <span className="text-green-400 font-semibold">
-              Sustainable Solutions
+              Sustainable Impacts
             </span>
             . Empowering communities and organizations to create lasting impact.
           </p>
@@ -88,12 +88,13 @@ export const Footer = () => {
             <p>
               Email:{" "}
               <a
-                href="mailto:info@hedgeimpact.org"
+                href="mailto:hedgeimpactpartners@gmail.com"
                 className="hover:text-white transition"
               >
-                info@hedgeimpact.org
+                hedgeimpactpartners@gmail.com
               </a>
             </p>
+            <p>Address: 4a Nike Lake, Maitama Abuja</p>
             <p>Location: Nigeria</p>
             <p>
               Phone:{" "}

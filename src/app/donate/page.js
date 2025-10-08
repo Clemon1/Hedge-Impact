@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import donateImg from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg";
+import donateImg from "../../../public/images/IMG_9834.jpg";
 import toast, { Toaster } from "react-hot-toast";
 
 const currencies = [

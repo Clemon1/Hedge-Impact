@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import donate from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg";
+import donate from "../../../public/images/IMG_9832.jpg";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 

@@ -3,7 +3,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import historyImg1 from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg";
+import historyImg1 from "../../../public/images/IMG_9828.jpg";
+import historyImg2 from "../../../public/images/IMG_9834.jpg";
+import historyImg3 from "../../../public/images/IMG_9827.jpg";
 
 const historyEvents = [
   {
@@ -20,7 +22,7 @@ const historyEvents = [
     desc: "Implemented our first large-scale intervention focusing on community development and environmental sustainability.",
     fullDesc:
       "Our first major programme focused on community development and environmental sustainability. It involved extensive partner collaboration, research-backed strategies, and measurable outcomes that shaped our future approach to impactful interventions.",
-    image: historyImg1,
+    image: historyImg2,
   },
   {
     year: "2022",
@@ -28,7 +30,7 @@ const historyEvents = [
     desc: "Expanded our operations, impacting thousands of communities and receiving recognition for innovative solutions.",
     fullDesc:
       "By 2022, Hedge Impact Partners expanded its operations, reaching thousands of communities. Our innovative solutions and evidence-driven interventions earned recognition, highlighting our commitment to sustainable and inclusive impact.",
-    image: historyImg1,
+    image: historyImg3,
   },
 ];
 

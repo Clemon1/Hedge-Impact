@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import volunteers from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg";
+import volunteers from "../../../public/images/IMG_9830.jpg";
 
 // Reusable animation
 const fadeUp = {

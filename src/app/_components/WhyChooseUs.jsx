@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import kids from "../../../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg";
+import kids from "../../../public/images/IMG_9834.jpg";
 import { FaHandsHelping, FaUsers, FaRegChartBar } from "react-icons/fa";
 
 const features = [
