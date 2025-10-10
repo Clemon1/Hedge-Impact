@@ -39,11 +39,19 @@ export const Footer = () => {
           {/* Social Media */}
           <div className="flex items-center gap-4 mt-6">
             {[
-              { icon: Facebook, href: "https://facebook.com" },
-              { icon: Twitter, href: "https://twitter.com" },
-              { icon: Instagram, href: "https://instagram.com" },
-              { icon: Linkedin, href: "https://linkedin.com" },
-              { icon: Youtube, href: "https://youtube.com" },
+              {
+                icon: Facebook,
+                href: "https://www.facebook.com/share/1JzGgdyLtw/?mibextid=wwXIfr",
+              },
+              { icon: Twitter, href: "https://x.com/hedgeimpact?s=11" },
+              {
+                icon: Instagram,
+                href: "https://www.instagram.com/hedgeimpact?igsh=MTg1cmdpOHkya2NzNg%3D%3D&utm_source=qr",
+              },
+              {
+                icon: Linkedin,
+                href: "https://www.linkedin.com/company/hedgeimpact/",
+              },
             ].map(({ icon: Icon, href }, i) => (
               <motion.a
                 key={i}
@@ -98,8 +106,11 @@ export const Footer = () => {
             <p>Location: Nigeria</p>
             <p>
               Phone:{" "}
-              <a href="tel:+2340000000" className="hover:text-white transition">
-                +234 000 000 000
+              <a
+                href="tel:+2348096972384"
+                className="hover:text-white transition"
+              >
+                +234 809 697 2384
               </a>
             </p>
           </div>

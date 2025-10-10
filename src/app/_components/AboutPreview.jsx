@@ -60,17 +60,17 @@ function AboutPreview() {
             thousands of lives, provided essential aid, and funded critical
             initiatives.
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed">
+          {/* <p className="text-lg text-gray-700 leading-relaxed">
             With over{" "}
             <span className="font-bold text-primary">1,200+ projects</span>,{" "}
             <span className="font-bold text-primary">5,200 lives impacted</span>
             , and <span className="font-bold text-primary">$12M raised</span>,
             we remain committed to shaping a brighter future — one act of
             kindness at a time.
-          </p>
+          </p> */}
 
           {/* Stats */}
-          <div className="flex flex-wrap gap-10 pt-4">
+          {/* <div className="flex flex-wrap gap-10 pt-4">
             {[
               { value: 5200, label: "Lives Touched" },
               { value: 500, label: "Volunteers", suffix: "+" },
@@ -97,7 +97,7 @@ function AboutPreview() {
                 <p className="text-sm text-gray-500">{stat.label}</p>
               </motion.div>
             ))}
-          </div>
+          </div> */}
 
           {/* Button */}
           <motion.a
