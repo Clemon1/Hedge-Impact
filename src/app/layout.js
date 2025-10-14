@@ -20,7 +20,7 @@ export const metadata = {
   title: "Hedge Impact Partners",
   description: "Partnering for Sustainable Solutions",
   icons: {
-    icon: "/images/logo.png", // ✅ path inside /public
+    icon: "/icons/logo.svg", // ✅ path inside /public
   },
 };
 

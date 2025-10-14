@@ -32,7 +32,7 @@ export const Footer = () => {
           <p className="text-gray-200 leading-relaxed max-w-sm">
             Partnering for{" "}
             <span className="text-green-400 font-semibold">
-              Sustainable Impacts
+              Sustainable Impact
             </span>
             . Empowering communities and organizations to create lasting impact.
           </p>

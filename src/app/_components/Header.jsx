@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/icons/logo.svg";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +34,7 @@ export const Header = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           {/* <span className="text-2xl font-bold text-primary">Hedge Impact</span> */}
-          <Image src={logo} width={120} alt="logo" />
+          <Image src={logo} width={90} alt="logo" />
         </Link>
 
         {/* Desktop Nav */}
