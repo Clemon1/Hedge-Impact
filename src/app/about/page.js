@@ -166,7 +166,7 @@ export default function About() {
             <span className="font-semibold text-primary">
               Hedge Impact Partners
             </span>{" "}
-            is a development support firm committed to strengthening
+            is a development support organization committed to strengthening
             organizations and communities to deliver lasting change. Registered
             in Nigeria, we bridge the gap between{" "}
             <span className="font-semibold">

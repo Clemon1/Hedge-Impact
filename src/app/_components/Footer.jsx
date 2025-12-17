@@ -73,14 +73,20 @@ export const Footer = () => {
             Quick Links
           </h3>
           <ul className="space-y-3">
-            {["About", "History", "Mission", "Values"].map((link) => (
-              <li key={link}>
+            {[
+              { label: "Home", path: "/" },
+              { label: "About", path: "/about" },
+              { label: "History", path: "/history" },
+              { label: "Mission", path: "/mission" },
+              { label: "Values", path: "/values" },
+            ].map((link) => (
+              <li key={link.label}>
                 <a
-                  href={`/${link.toLowerCase()}`}
+                  href={link.path}
                   className="hover:text-white transition-colors duration-300 relative group"
                 >
-                  {link}
-                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-green-400 transition-all group-hover:w-full"></span>
+                  {link.label}
+                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-green-400 transition-all duration-300 group-hover:w-full"></span>
                 </a>
               </li>
             ))}

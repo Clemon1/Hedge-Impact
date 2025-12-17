@@ -11,7 +11,7 @@ export default function Home() {
       <AboutPreview />
       <WhyChooseUs />
       <DonateSection />
-      <Marquee />
+      {/* <Marquee /> */}
     </div>
   );
 }
