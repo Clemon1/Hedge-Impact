@@ -102,10 +102,10 @@ export const Footer = () => {
             <p>
               Email:{" "}
               <a
-                href="mailto:hedgeimpactpartners@gmail.com"
+                href="mailto:contact@hedgeimpact.org"
                 className="hover:text-white transition"
               >
-                hedgeimpactpartners@gmail.com
+                contact@hedgeimpact.org
               </a>
             </p>
             <p>Address: 4a Nike Lake, Maitama Abuja</p>
