@@ -39,13 +39,19 @@ export const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-16 font-medium">
-          {["About", "History", "Mission", "Values"].map((item) => (
+          {[
+              { label: "Home", path: "/" },
+              { label: "About", path: "/about" },
+              { label: "History", path: "/history" },
+              { label: "Mission", path: "/mission" },
+              { label: "Values", path: "/values" },
+            ].map((item) => (
             <Link
-              key={item}
-              href={`/${item.toLowerCase().replace(/\s+/g, "")}`}
+              key={item.label}
+              href={item.path}
               className="transition text-gray-700 hover:text-primary"
             >
-              {item}
+              {item.label}
             </Link>
           ))}
         </nav>
@@ -83,14 +89,20 @@ export const Header = () => {
               <Image src={logo} width={100} alt="logo" />
             </Link>
 
-            {["About", "History", "Mission", "Values"].map((item) => (
+            {[
+              { label: "Home", path: "/" },
+              { label: "About", path: "/about" },
+              { label: "History", path: "/history" },
+              { label: "Mission", path: "/mission" },
+              { label: "Values", path: "/values" },
+            ].map((item) => (
               <Link
-                key={item}
-                href={`/${item.toLowerCase().replace(/\s+/g, "")}`}
+                key={item.label}
+                href={item.path}
                 onClick={() => setIsOpen(false)}
                 className="block text-gray-700 font-medium py-2 hover:text-primary transition"
               >
-                {item}
+                {item.label}
               </Link>
             ))}
             <Link
